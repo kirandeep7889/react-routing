@@ -1,0 +1,21 @@
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .post {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h3 {
+    margin-top: 0;
+  }
+  
+  .post p {
+    margin-bottom: 0;
+  }
+  

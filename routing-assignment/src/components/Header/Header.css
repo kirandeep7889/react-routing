@@ -1,0 +1,31 @@
+nav {
+    background-color: rgb(81, 77, 77);
+    padding: 10px 0;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+    font-size: larger;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: red;
+  }
+  

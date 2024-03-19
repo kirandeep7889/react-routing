@@ -1,0 +1,26 @@
+.todos-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .todos-list li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 0 calc(50% - 10px); 
+    max-width: calc(50% - 10px);
+  }
+  
+  .todos-list li:nth-child(odd) {
+    margin-right: 0; 
+  }
+  
+  .todos-list li.completed {
+    background-color: #dff0d8;
+    text-decoration: line-through;
+  }
+  
